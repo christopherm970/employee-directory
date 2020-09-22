@@ -1,9 +1,26 @@
 [
     {
         "id": 1,
-        "name": "Gary Cole",
+        "name": "John Smith",
         "position": "Nurse",
-        "email": "Cole.Gary@gmail.com"
+        "email": "john.smith@gmail.com"
+    },
+    {
+        "id": 2,
+        "name": "Abbey Wheeler",
+        "position": "Doctor",
+        "email": "abbey.wheeler@gmail.com"
+    },
+    {
+        "id": 3,
+        "name": "Harry Marsh",
+        "position": "Firefighter",
+        "email": "harry.marsh@aol.com"
+    },
+    {
+        "id": 4,
+        "name": "Sam Fuller",
+        "position": "Intern",
+        "email": "sam.fuller@aol.com"
     }
-
 ]

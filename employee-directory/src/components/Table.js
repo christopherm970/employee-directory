@@ -6,9 +6,9 @@ const EmployeeTable = (props) => {
       <thead>
         <tr>
           <th scope="col">#</th>
-          <th scope="col">Name</th>
-          <th scope="col">Position</th>
-          <th scope="col">Email</th>
+          <th onClick={props.sortEmployee} id="name" scope="col">Name</th>
+          <th onClick={props.sortEmployee} id="position" scope="col">Position</th>
+          <th onClick={props.sortEmployee} id="email"scope="col">Email</th>
         </tr>
       </thead>
       <tbody>
