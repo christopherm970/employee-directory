@@ -17,7 +17,8 @@ class App extends Component {
         console.log(id);
         const {employees} = this.state
 
-        const filtered =  employees.sort((a,b) => a[id] - b[id])
+        const filtered =  employees.sort((a,b) => a[id].localeCompare(b[id]))
+        console.log(filtered);
         this.setState({filteredEmployees:filtered})
     }
     render(){
