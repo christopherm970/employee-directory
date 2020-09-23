@@ -13,7 +13,7 @@ const EmployeeTable = (props) => {
       </thead>
       <tbody>
           {props.employees.map(employee => (
-            <tr>
+        <tr>
           <th scope="row">{employee.id}</th>
           <td>{employee.name}</td>
           <td>{employee.position}</td>
